@@ -1,0 +1,104 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Survey Form</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Josefin+Slab:ital,wght@0,200;0,300;1,200&family=Poppins:ital,wght@0,100;0,200;0,400;0,500;1,100;1,200;1,400&family=Roboto:wght@100;300;400;500&display=swap" rel="stylesheet">
+</head>
+<body>
+    <h1> Capacity Bay Survey Form</h1>
+    <h3>Thank you for taking the time to help us improve the platform</h3>
+    <form id="form" action="">
+        <div class="form-control">
+            <label for="Name">Name</label><br>
+            <input type="text" placeholder="Enter your name">
+        </div>
+        <div class="form-control">
+            <label for="Email">Email</label><br>
+            <input type="email" placeholder="Enter your email">
+        </div>
+        <div class="form-control">
+            <label for="Age">Age(optional)</label><br>
+            <input type="text" placeholder="Enter your age">
+        </div>
+        <div class="form-control">
+            <label for="Role">Which Option best describes your current role?</label><br>
+            <Select name="role">
+                <option value="Student">Student</option>
+                <option value="Intern">Full-time job</option>
+                <option value="Intern">Full-time learner</option>
+                <option value="Professional">Prefer not to say</option>
+                <option value="Other">Other</option>
+
+            </Select>
+        </div>
+        <div class="form-control">
+            <label for="">Would you recommend Capacity Bay To a friend?</label>
+            <label for="Recommend-1">Definitely
+                <input type="radio" name="Recommend"></input><br>
+
+            </label>
+            <label for="recommend-2">Maybe
+                <input type="radio" name="Recommend">
+            </label>
+            <label for="Recommend-3">Not Sure
+            <input type="radio" name="Recommend"></input>
+            </label>
+        </div>
+        <div class="form-control">
+            <label>What would you like to see improve?
+                <small>(Check all that applies)</small>
+            </label>
+            <label for="inp-1">Frontend Projects
+                <input type="checkbox" name="inp">
+            </label>
+            <Label for="inp-2">Backend Projects
+                <Input type="checkbox" name="inp"></Input>
+
+            </Label>
+            <label for="inp-3">Data Visualisation
+                <input type="checkbox" name="inp">
+            </label>
+            <Label for="inp-4">Search Engines
+                <input type="checkbox" name="inp">
+
+            </Label>
+            <label for="inp-5">Open Source Community
+                <input type="checkbox" name="inp">
+            </label>
+            <label for="inp-6">Glitter Help Rooms
+                <input type="checkbox" name="inp">
+            </label>
+            <label for="inp-7">Videos
+                <input type="checkbox" name="inp">
+            </label>
+            <label for="inp-8">City Meet-up
+                <input type="checkbox" name="inp">
+            </label>
+            <label for="inp-9">Wiki
+                <input type="checkbox" name="inp">
+            </label>
+            <label for="inp-10">Forum
+            <input type="checkbox" name="inp">
+            </label>
+            <label for="inp-11">Additional Courses
+                <input type="checkbox" name="inp">
+
+            </label>
+
+        </div>
+        <div class="form-control">
+            <label for="comment">Any Comments or Suggestions</label><br>
+            <textarea name="comment" id="comment" cols="10" rows="10" placeholder="Enter your comment here..."></textarea>
+
+        </div>
+        <button type="submit">submit</button>
+
+
+    </form>
+</body>
+</html>
